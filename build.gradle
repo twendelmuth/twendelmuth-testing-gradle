@@ -1,0 +1,8 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'org.xhtmlrenderer', name: 'flying-saucer-pdf', version: '9.1.11'
+    }
+}
